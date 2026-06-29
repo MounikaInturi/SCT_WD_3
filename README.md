@@ -5,10 +5,10 @@
 A responsive quiz application with 3 question types, instant feedback, and detailed score review. Built with vanilla HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
-https://mounikainturi.github.io/SCT_WD_2/
+https://mounikainturi.github.io/SCT_WD_3/
 
 ## 📂 GitHub Repository
-https://github.com/mounikainturi/SCT_WD_2
+https://github.com/mounikainturi/SCT_WD_3
 
 ## 📸 Preview
 *Glassmorphism UI with biology-themed gradient + progress tracking*
