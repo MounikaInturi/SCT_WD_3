@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biology Quiz</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <div id="quizScreen">
+    <h1>Biology Quiz</h1>
+    <p class="subtitle">Explore the world of life science!</p>
+
+    <div class="progress-wrap">
+      <div class="progress" id="progressBar"></div>
+    </div>
+
+    <div class="question-count" id="qCount">Question 1 of 7</div>
+    <span class="question-type" id="qType">Single Choice</span>
+    <div class="question" id="questionText"></div>
+
+    <div class="feedback" id="feedback"></div>
+
+    <div id="answerArea"></div>
+
+    <div class="btn-group">
+      <button class="btn-next" id="nextBtn" disabled>Next Question</button>
+    </div>
+  </div>
+
+  <div class="results" id="resultsScreen">
+    <h1>Quiz Complete!</h1>
+    <div class="score-circle">
+      <div class="score-number" id="finalScore">0</div>
+      <div class="score-text">out of <span id="totalQ">7</span></div>
+    </div>
+    <div class="result-msg" id="resultMsg">Great job!</div>
+
+    <div class="review" id="review"></div>
+
+    <button class="btn-restart" onclick="restartQuiz()">Play Again</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
